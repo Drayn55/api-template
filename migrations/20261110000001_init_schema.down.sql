@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS audits;
+DROP TABLE IF EXISTS api_logs;

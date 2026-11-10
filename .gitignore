@@ -1,1 +1,26 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+api-template
+agencyapi
+
+# Environment variables
 .env
+.env.*
+!.env.example
+
+# Air live reload
+tmp/
+
+# Swagger documentation (auto-generated)
+docs/
+
+# OS and Editor
+.DS_Store
+.vscode/
+.idea/
+*.log
