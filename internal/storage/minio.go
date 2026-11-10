@@ -107,3 +107,4 @@ func (m *MinioStorage) GeneratePresignedUploadURL(
 
 	return u.String(), nil
 }
+

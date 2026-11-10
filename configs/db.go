@@ -30,3 +30,4 @@ func NewDB(cfg DBConfig) (*sqlx.DB, error) {
 
 	return db, nil
 }
+

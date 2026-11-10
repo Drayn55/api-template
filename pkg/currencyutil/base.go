@@ -20,3 +20,4 @@ func ToBasePtr(amount *float64, currencyCode string, currencyRate float64) *floa
 	v := ToBase(*amount, currencyCode, currencyRate)
 	return &v
 }
+

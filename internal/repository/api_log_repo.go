@@ -46,3 +46,4 @@ func (r *APILogRepo) Create(data model.APILog) error {
 	}
 	return nil
 }
+

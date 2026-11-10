@@ -182,3 +182,4 @@ func HandleSeederCommand(args []string) {
 		log.Fatalf("Command %s tidak dikenali", cmd)
 	}
 }
+

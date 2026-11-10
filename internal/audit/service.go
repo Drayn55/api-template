@@ -89,3 +89,4 @@ func (s *Service) LogDelete(
 		CreatedBy: userID,
 	})
 }
+

@@ -23,3 +23,4 @@ func NewMinIO(cfg MinIOConfig) (*minio.Client, error) {
 	}
 	return client, nil
 }
+

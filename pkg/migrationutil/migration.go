@@ -255,3 +255,4 @@ func FixDirtyMigration() {
 
 	log.Printf("✅ Dirty migration pada versi %d berhasil dibersihkan.\n", version)
 }
+

@@ -15,3 +15,4 @@ type Entry struct {
 	ChangedFields []string
 	CreatedBy     *int64
 }
+

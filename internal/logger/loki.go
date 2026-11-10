@@ -88,3 +88,4 @@ func (t *lokiTee) push(line []byte) {
 		fmt.Fprintf(os.Stderr, "loki push: %s %s\n", resp.Status, bytes.TrimSpace(msg))
 	}
 }
+

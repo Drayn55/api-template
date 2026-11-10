@@ -145,3 +145,4 @@ func GetEmployeeIDFromToken(c *gin.Context) *string {
 
 	return nil
 }
+

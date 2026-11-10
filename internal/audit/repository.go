@@ -71,3 +71,4 @@ func (r *Repository) Log(ctx context.Context, tx *sqlx.Tx, entry Entry) error {
 	}
 	return nil
 }
+

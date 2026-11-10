@@ -58,3 +58,4 @@ func NewRouter(h Handlers, apiLogRepo *repository.APILogRepo, jwt *jwtutil.JWTUt
 
 	return r
 }
+

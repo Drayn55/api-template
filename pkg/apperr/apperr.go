@@ -69,3 +69,4 @@ func Is(err error, errNo int) bool {
 
 	return false
 }
+

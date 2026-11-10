@@ -47,3 +47,4 @@ func (h *HealthHandler) Check(c *gin.Context) {
 
 	response.Success(c, res)
 }
+

@@ -27,3 +27,4 @@ func ParseTime(raw string) (time.Time, error) {
 	}
 	return time.Time{}, fmt.Errorf("invalid time format: %q", raw)
 }
+

@@ -44,3 +44,4 @@ func DecodeID(hash string) (int64, error) {
 
 	return ids[0], nil
 }
+

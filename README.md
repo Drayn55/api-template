@@ -50,8 +50,7 @@ Standard starter template backend berbasis Golang dan Gin Framework dengan pola 
 │   ├── jwtutil/          # JWT parser & claim extractor
 │   ├── migrationutil/    # CLI migration & seeder runner
 │   ├── parseutil/        # String/Time parsing helpers
-│   ├── response/         # Standard JSON response format
-│   └── slugutil/         # String slug generator
+│   └── response/         # Standard JSON response format
 ├── migrations/           # File SQL migrations (.up.sql & .down.sql)
 ├── .air.toml             # Konfigurasi live reload Air
 ├── .env.example          # Template environment variable
@@ -106,3 +105,4 @@ Untuk menambahkan modul baru sesuai Clean Architecture:
 4. **Handler** (`internal/handler/product_handler.go`): Handle HTTP request, parse input, panggil service, return via `response.Success` / `c.Error(...)`.
 5. **Router** (`api/router.go`): Daftarkan route ke Gin route group (`/api/products`).
 6. **Main** (`cmd/main.go`): Wire up instance repository, service, dan handler.
+

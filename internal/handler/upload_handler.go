@@ -46,3 +46,4 @@ func (h *UploadHandler) GeneratePresignedURL(c *gin.Context) {
 
 	response.Success(c, res)
 }
+

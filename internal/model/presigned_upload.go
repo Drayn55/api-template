@@ -17,3 +17,4 @@ type PresignedUploadResponse struct {
 	Bucket           string `json:"bucket"`
 	ExpiresInSeconds int    `json:"expires_in_seconds"`
 }
+

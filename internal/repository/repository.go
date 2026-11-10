@@ -31,3 +31,4 @@ func (r *Repo) DB() *sqlx.DB {
 func (r *Repo) BeginTx(ctx context.Context) (*sqlx.Tx, error) {
 	return r.db.BeginTxx(ctx, nil)
 }
+

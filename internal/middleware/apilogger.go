@@ -90,3 +90,4 @@ func APILogger(logRepo *repository.APILogRepo) gin.HandlerFunc {
 		}()
 	}
 }
+

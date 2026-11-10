@@ -45,3 +45,4 @@ func Auth(jwt *jwtutil.JWTUtil) gin.HandlerFunc {
 		c.Next()
 	}
 }
+

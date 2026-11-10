@@ -18,3 +18,4 @@ type Storage interface {
 		objectKey string,
 	) error
 }
+

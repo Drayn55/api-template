@@ -26,3 +26,4 @@ test:
 	go test ./...
 
 .PHONY: run air build swagger migrate migrate-refresh fix-dirty seed test
+

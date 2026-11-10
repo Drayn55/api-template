@@ -47,3 +47,4 @@ func FromDBError(err error) error {
 func IsDBError(err error, errNo int) bool {
 	return Is(err, errNo)
 }
+

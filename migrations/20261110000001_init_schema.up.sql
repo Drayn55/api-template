@@ -30,3 +30,4 @@ CREATE TABLE IF NOT EXISTS audits (
     INDEX idx_audits_table_record (table_name, record_id),
     INDEX idx_audits_created_at (created_at)
 );
+

@@ -30,3 +30,4 @@ func ErrorHandler() gin.HandlerFunc {
 		response.Error(c, err)
 	}
 }
+
